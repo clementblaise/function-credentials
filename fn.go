@@ -3,9 +3,9 @@ package main
 import (
 	"context"
 
+	"github.com/clementblaise/function-credentials/input/v1beta1"
 	"github.com/crossplane/crossplane-runtime/pkg/errors"
 	"github.com/crossplane/crossplane-runtime/pkg/logging"
-	"github.com/crossplane/function-credentials/input/v1beta1"
 	fnv1beta1 "github.com/crossplane/function-sdk-go/proto/v1beta1"
 	"github.com/crossplane/function-sdk-go/request"
 	"github.com/crossplane/function-sdk-go/response"
